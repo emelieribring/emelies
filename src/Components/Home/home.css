@@ -94,3 +94,53 @@
     left: 65%;
     transform: rotate(-10deg);
 }
+
+
+@media only screen and (max-width: 500px) {
+
+
+.big-cloud{
+    background-color:aquamarine;
+}
+
+.cloud{
+    background-color:aquamarine;
+}
+
+.cloud-box{
+    background-color:aquamarine;
+}
+
+.clouds{
+    background-color:aquamarine;
+}
+
+.clouds-top{
+    background-color:aquamarine;
+}
+
+.cloudball-one, .cloudball-two{
+    background-color:aquamarine;
+}
+
+.workpic{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1999;
+    top: 0%;
+    left: 40%;
+    transform: rotate(-10deg);
+}
+
+
+.line{
+    width: 2px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    top: -50%;
+    left: 60%;
+}
+
+}
