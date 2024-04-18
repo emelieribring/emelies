@@ -1,0 +1,96 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-cloud{
+    width: 70vh;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cloud{
+    width: 20vw;
+    height: 15vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.cloud-box{
+    width: 20vw;
+    height: 15vh;
+    display: flex;
+}
+
+.clouds{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+}
+
+.clouds-top{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+}
+
+.cloudball-one, .cloudball-two{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: relative;
+}
+
+.cloudball-one{
+    left: 50px;
+}
+
+.cloudball-two{
+    right: 50px;
+}
+
+
+.text{
+    text-transform: uppercase;
+    color: black;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 900;
+    z-index: 999;
+    font-family: "Jersey 10", sans-serif;
+}
+
+
+.line{
+    width: 2px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    top: -50%;
+    left: 80.5%;
+}
+
+
+.workpic{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1999;
+    top: 10%;
+    left: 65%;
+    transform: rotate(-10deg);
+}
