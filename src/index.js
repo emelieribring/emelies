@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Home from './Components/Home/Home';
+import Home from './Pages/Home/Home';
+import Construction from './Components/construction/Construction';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

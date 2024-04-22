@@ -1,12 +1,12 @@
 import React from 'react';
-import './home.css';
+import './construction.css';
 import 'animate.css';
 import workpic from '../../images/work-98936_1280.png';
 
 
-export default function Home() {
+export default function Construction() {
   return (
-    <div className='home'>
+    <div className='construction'>
         <div className='big-cloud animate__animated animate__fadeInDownBig'>
             <div className='line'></div>
             <img className='workpic' src={workpic} alt="" />
