@@ -1,0 +1,37 @@
+.newsidebar{
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    height: 100vh;
+    position: absolute;
+    justify-content: end;
+    align-items: center;
+    right: 0;
+}
+
+
+.media{
+    width: 30px;
+    cursor: pointer;
+    position: relative;
+    bottom: 60%;
+}
+
+.github{
+    width: 35px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .newsidebar{
+        display: flex;
+        flex-direction: column;
+        width: 5%;
+        height: 100vh;
+        position: absolute;
+        justify-content: end;
+        align-items: center;
+        right: 20px;
+    }
+
+}

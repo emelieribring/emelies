@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Home from './Pages/Home/Home';
 import Construction from './Components/construction/Construction';
+import Portfolio from './Pages/Portfolio/Portfolio';
+import NewHome from './Pages/NewHOME/NewHome';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <NewHome />
   </React.StrictMode>
 );
 
