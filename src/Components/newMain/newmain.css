@@ -96,17 +96,17 @@
         position: relative;
         width: 90%;
         left: 7%;
-        font-size: 7vw;
+        font-size: 6vw;
         top: -20%;
     }
 
     .newmain p{
         position: relative;
         width: 90%;
-        left: 10%;
+        left: 7.5%;
         font-weight: 100;
         line-height: 0px;
-        font-size: 3vw;
+        font-size: 2vw;
         letter-spacing: 20px;
         top: -20%;
     }
