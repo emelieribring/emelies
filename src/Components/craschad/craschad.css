@@ -1,0 +1,7 @@
+.crasched{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-image: url(../../images/crached.webp);
+    background-size: cover;
+}

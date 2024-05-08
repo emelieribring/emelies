@@ -1,0 +1,126 @@
+.portfolio-main{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-boxes{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 40%;background-color: darkviolet;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../../images/blommaa.jpg);
+    background-size: cover;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.box p{
+    font-size: 2.5vw;
+    font-weight: 800;
+    color: #fff;
+}
+
+.hide-text{
+    visibility: hidden;
+}
+
+#wildlife:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/wildlife.png);
+}
+#flowerspace:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/flowerspace.png);
+}
+#aiatom:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/aiatom.png);
+}
+#coinking:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/coinking.png);
+}
+
+.box:hover .hide-text{
+    visibility: visible;
+}
+
+#wildlife{
+    background-image: url(../../images/wildlife.png);
+}
+#flowerspace{
+    background-image: url(../../images/flowerspace.png);
+}
+#aiatom{
+    background-image: url(../../images/aiatom.png); 
+}
+#coinking{
+    background-image: url(../../images/coinking.png); 
+}
+
+
+.box:hover {
+    transform: scale(1.03);
+    animation: increaseBrightness 2s forwards;
+    animation: scale 1s forwards;
+    cursor: pointer;
+}
+
+.box:active {
+    transform: scale(0.99);
+}
+
+.box {
+    filter: brightness(100%); /* Initial brightness */
+}
+
+.box:not(:hover) {
+    animation: decreaseBrightness 2s forwards;
+    animation: decreaseScale 1s forwards;
+}
+
+@keyframes increaseBrightness {
+    0% {
+        filter: brightness(200%);
+    }
+    100% {
+        filter: brightness(100%);
+    }
+}
+
+@keyframes decreaseBrightness {
+    0% {
+        filter: brightness(100%);
+    }
+    100% {
+        filter: brightness(100%);
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0.99);
+    }
+    100% {
+        transform: scale(1.03);
+    }
+}
+
+@keyframes decreaseScale {
+    0% {
+        transform: scale(1.03);
+    }
+    100% {
+        transform: scale(0.99);
+    }
+}
