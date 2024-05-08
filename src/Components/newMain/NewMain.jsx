@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './newmain.css';
 import 'animate.css';
-import Lottie from 'lottie-react';
-import arrowAni from '../../assets/arrow.json';
 
 export default function NewMain({ isVisible }) {
 
