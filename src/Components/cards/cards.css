@@ -1,0 +1,109 @@
+.cardsNavbar{
+    width: 100%;
+    height: 1%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.cardsNavbar ul{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    letter-spacing: 5px;
+    font-size: 1.2vw;
+}
+
+
+.cardsNavbar p{
+    color: #fff;
+    position: relative;
+    right: 2%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 1vw;
+}
+
+.cards{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(128, 128, 128, 0.2);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    -webkit-backdrop-filter: blur(50px); /* För Safari och äldre versioner av Chrome */
+    backdrop-filter: blur(5px);
+    overflow-y: scroll;
+}
+
+
+.card{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text{
+    width: 450px;
+    height: 200px;
+    border-bottom: 0.5px solid rgb(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3{
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;
+    margin: 0;
+}
+
+.card p{
+    font-size: 1vw;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 6px;
+    margin: 0;
+}
+
+
+.closeOpenBtn{
+    position: relative;
+    top: 15%;
+    z-index: 1000;
+    background-color: transparent;
+    border: none;
+    font-size: 3vw;
+}
+
+.cards {
+    transition: all 0.3s ease; /* Smidig övergång för breddändring */
+  }
+  
+  .card {
+    transition: visibility 0.3s ease; /* Synlighetstransition */
+  }
+  
+  .card-hidden .card-text {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+  
+  .card-shown .card-text {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+  
