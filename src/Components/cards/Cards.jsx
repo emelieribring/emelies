@@ -23,8 +23,8 @@ export default function Cards({ onCardClick }) {
 <div className="card"></div>
     <div className='cardsNavbar'>
       <ul>
-        <li>home</li>
-        <li>portfolio</li>
+        <a href="/"> <li>home</li></a>
+        <a href="/portfolio"> <li>portfolio</li></a>
         <li>contact</li>
       </ul>
     </div>
@@ -37,36 +37,36 @@ export default function Cards({ onCardClick }) {
             <div className="card-text">
                 <h3>WILDLIFE DESIGN</h3>
                 <p>react project</p>
+                <br />
+                <br />
+                <a className='repoLink' href="https://github.com/emelieribring/wildlifedesign"><p>Link to repo</p></a>
             </div>
         </div>
         <div className="card" onClick={() => onCardClick(flowerspace)}>
             <div className="card-text">
                 <h3>FLOWER-SPACE</h3>
                 <p>react project</p>
+                <br />
+                <br />
+                <a className='repoLink' href="https://github.com/emelieribring/flowerspacedesign"><p>Link to repo</p></a>
             </div>
         </div>
         <div className="card" onClick={() => onCardClick(ai)}>
             <div className="card-text">
                 <h3>AI MED ATOM</h3>
                 <p>react project</p>
+                <br />
+                <br />
+                <a className='repoLink' href="https://github.com/emelieribring/ailearning"><p>Link to repo</p></a>
             </div>
         </div>
         <div className="card" onClick={() => onCardClick(coinKing)}>
             <div className="card-text">
                 <h3>COIN KING</h3>
                 <p>react project</p>
-            </div>
-        </div>
-        <div className="card" onClick={() => onCardClick(wildlife)}>
-            <div className="card-text">
-                <h3>AI MED ATOM</h3>
-                <p>react project</p>
-            </div>
-        </div>
-        <div className="card" onClick={() => onCardClick(flowerspace)}>
-            <div className="card-text">
-                <h3>AI MED ATOM</h3>
-                <p>react project</p>
+                <br />
+                <br />
+                <a className='repoLink' href="https://github.com/emelieribring/coinking"><p>Link to repo</p></a>
             </div>
         </div>
     </div>

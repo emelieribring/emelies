@@ -5,13 +5,13 @@ import teleIcon from '../../images/tele-icon.png';
 export default function Navbar({toggleVisibility}) {
 
   return (
-    <div className='navbar'>
+    <nav className='navbar'>
       <ul>
-        <li>home</li>
-        <li>portfolio</li>
-        <li onClick={toggleVisibility}>contact</li>
+        <a href="/"> <li>home</li></a>
+        <a href="/portfolio"> <li>portfolio</li></a>
+        <a href="/contact"> <li>contact</li></a>
       </ul>
       <p><img className='tele-icon' src={teleIcon} alt="" /> +73 735 35 00</p>
-    </div>
+    </nav>
   )
 }

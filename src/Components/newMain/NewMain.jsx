@@ -9,7 +9,7 @@ export default function NewMain({ isVisible }) {
       <h1 className='animate__animated animate__fadeInLeft'>Emel<span className='i'>i</span>e R<span className='i'>i</span>bring</h1>
       <p className='animate__animated animate__fadeInLeft'>web developer</p>
       <div className="buttons">
-      <button class="animated-button animate__animated animate__fadeIn">
+      <a href="/resume"><button class="animated-button animate__animated animate__fadeIn">
         <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
@@ -22,8 +22,8 @@ export default function NewMain({ isVisible }) {
             d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
           ></path>
         </svg>
-      </button>
-      <button class="animated-button animate__animated animate__fadeIn">
+      </button></a>
+      <a href="/portfolio"><button class="animated-button animate__animated animate__fadeIn">
         <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
@@ -36,7 +36,7 @@ export default function NewMain({ isVisible }) {
             d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
           ></path>
         </svg>
-      </button>
+      </button></a>
 
          {/*<button className="resume-btn animate__animated animate__fadeIn">resume</button>
         <button className="portfolio-btn animate__animated animate__fadeIn">portfolio</button>*/}

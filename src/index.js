@@ -2,13 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route, Routes, Switch } from 'react-router-dom';
 import NewHome from './Pages/NewHOME/NewHome';
 import Portfolio from './Pages/Portfolio/Portfolio';
+import Contact from './Pages/Contact/Contact';
+import Resume from './Pages/Resume/Resume';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Portfolio />
+    <Router>
+      <Routes>
+        <Route path="/" element={<NewHome />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/Resume" element={<Resume />}/>
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>  
   </React.StrictMode>
 );
 

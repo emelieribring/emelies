@@ -8,6 +8,10 @@
     z-index: 999;
 }
 
+button{
+    color: #fff;
+}
+
 .cardsNavbar ul{
     width: 100%;
     color: rgb(255, 255, 255);
@@ -107,3 +111,7 @@
     transition: visibility 0s, opacity 0.3s linear;
   }
   
+
+  .repoLink{
+    text-transform: uppercase;
+  }
