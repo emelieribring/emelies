@@ -14,3 +14,25 @@ code {
     monospace;
 }
 
+/* Anpassar bredden på scrollbaren */
+::-webkit-scrollbar {
+  width: 3px; /* eller höjd om det är en horisontell scrollbar */
+}
+
+/* Anpassar färgen och andra egenskaper på spåret (delen scrollbar rör sig längs) */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 10px; /* rundar av hörnen på spåret */
+}
+
+/* Anpassar själva rörliga delen (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px; /* rundar av hörnen på thumb */
+  border: 3px solid transparent; /* lägger till en border runt thumb */
+}
+
+/* Ändrar färg på thumb vid hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
