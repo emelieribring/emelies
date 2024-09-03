@@ -25,7 +25,8 @@ export default function Cards({ onCardClick }) {
       <ul>
         <a href="/"> <li>home</li></a>
         <a href="/portfolio"> <li>portfolio</li></a>
-        <li>contact</li>
+        <a href="/contact"> <li>contact</li></a>
+
       </ul>
     </div>
         <div className="card">
