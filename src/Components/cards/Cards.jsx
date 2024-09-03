@@ -16,7 +16,7 @@ export default function Cards({ onCardClick }) {
   const cardsClassName = isOpen ? 'cards card-shown' : 'cards card-hidden';
 
   return (
-    <div className={cardsClassName} style={{width: isOpen ? '40%' : '50px'}}>
+    <div className={cardsClassName} style={{width: isOpen ? '100%' : '50px'}}>
         <button className='closeOpenBtn' onClick={toggleCards}>{isOpen ? '❰' : '❱'}</button>
         
 
@@ -26,7 +26,6 @@ export default function Cards({ onCardClick }) {
         <a href="/"> <li>home</li></a>
         <a href="/portfolio"> <li>portfolio</li></a>
         <a href="/contact"> <li>contact</li></a>
-
       </ul>
     </div>
         <div className="card">
