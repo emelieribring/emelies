@@ -4,6 +4,9 @@ import wildlife from '../../images/wildlife.png';
 import flowerspace from '../../images/flowerspace.png';
 import ai from '../../images/aiatom.png';
 import coinKing from '../../images/coinking.png';
+import fabio from '../../images/fabiorestaurant.png';
+import minsida from '../../images/minhemsida.png';
+
 
 export default function Cards({ onCardClick }) {
   const [isOpen, setIsOpen] = useState(true);
@@ -33,10 +36,28 @@ export default function Cards({ onCardClick }) {
           
             </div>
         </div>
+        <div className="card" onClick={() => onCardClick(minsida)}>
+            <div className="card-text">
+                <h3>THIS PAGE</h3>
+                <p>react project</p>
+                <br />
+                <br />
+                <a className='repoLink' href="https://github.com/emelieribring/emelies"><p>Link to repo</p></a>
+            </div>
+        </div>
+        <div className="card" onClick={() => onCardClick(fabio)}>
+            <div className="card-text">
+                <h3>THE RESTAURANT FABIO</h3>
+                <p>react & blockchain project</p>
+                <br />
+                <br />
+                <a className='repoLink' href="https://github.com/Medieinstitutet/the-restaurant-grupp4"><p>Link to repo</p></a>
+            </div>
+        </div>
         <div className="card" onClick={() => onCardClick(wildlife)}>
             <div className="card-text">
                 <h3>WILDLIFE DESIGN</h3>
-                <p>react project</p>
+                <p>react frontend project</p>
                 <br />
                 <br />
                 <a className='repoLink' href="https://github.com/emelieribring/wildlifedesign"><p>Link to repo</p></a>
@@ -45,7 +66,7 @@ export default function Cards({ onCardClick }) {
         <div className="card" onClick={() => onCardClick(flowerspace)}>
             <div className="card-text">
                 <h3>FLOWER-SPACE</h3>
-                <p>react project</p>
+                <p>react frontend project</p>
                 <br />
                 <br />
                 <a className='repoLink' href="https://github.com/emelieribring/flowerspacedesign"><p>Link to repo</p></a>
@@ -54,7 +75,8 @@ export default function Cards({ onCardClick }) {
         <div className="card" onClick={() => onCardClick(ai)}>
             <div className="card-text">
                 <h3>AI MED ATOM</h3>
-                <p>react project</p>
+                <p>react frontend & backend project</p>
+                <p>for Atom Collaboration</p>
                 <br />
                 <br />
                 <a className='repoLink' href="https://github.com/emelieribring/ailearning"><p>Link to repo</p></a>
@@ -63,7 +85,8 @@ export default function Cards({ onCardClick }) {
         <div className="card" onClick={() => onCardClick(coinKing)}>
             <div className="card-text">
                 <h3>COIN KING</h3>
-                <p>react project</p>
+                <p>react frontend project</p>
+                <p>for Aniseed</p>
                 <br />
                 <br />
                 <a className='repoLink' href="https://github.com/emelieribring/coinking"><p>Link to repo</p></a>

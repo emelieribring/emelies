@@ -11,13 +11,13 @@ export default function resume() {
                 <div className='inner-content'>
                     <h1>About Me</h1>
                     <p>Swedish:</p>
-                    <p>Emelie Ribring heter jag, är född 1998 i Stockholm och har växt upp ute på vackra Värmdö. 
-                        Under mitt än sålänge 27 år långa liv har jag hunnit gå gymnasiet på Värmdö gymnasium 
+                    <p>Emelie Ribring heter jag, är född 1998 i Stockholm, numera bosatt i Solna men har växt upp ute på vackra Värmdö. 
+                        Under mitt än sålänge 26 år långa liv har jag hunnit gå gymnasiet på Värmdö gymnasium 
                         där jag gick estetisk musik linje, varit en sväng till Asien, jobbat några år på Coop 
-                        och även studerat till Blockchainutvecklare, webbutvecklare, Javascriptutvecklare på Medieinstitutet.</p>
+                        och även studerat till Blockchainutvecklare, webbutvecklare och Javascriptutvecklare på Medieinstitutet.</p>
                     <p>English:</p>
                     <p>My name is Emelie Ribring, born in 1998 in Stockholm, and I grew up on the beautiful island of Värmdö. 
-                        During my 27 years of life so far, I've completed high school at Värmdö Gymnasium, where I studied 
+                        During my 26 years of life so far, I've completed high school at Värmdö Gymnasium, where I studied 
                         the arts and music program, traveled to Asia, worked for a few years at Coop, 
                         and also studied to become a Blockchain Developer, Web Developer, and JavaScript Developer at Medieinstitutet.</p>
                 </div>
