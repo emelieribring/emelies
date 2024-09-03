@@ -1,9 +1,10 @@
 .portfolio{
-    min-width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url(../../images/backgroundPort.webp);
     background-size: cover;
     display: flex;
+    position: absolute;
 }
 
 .main{

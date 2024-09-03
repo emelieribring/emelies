@@ -2,6 +2,17 @@
     width: 100%;
     height: 100%;
     background-color: transparent;
-    position: absolute;
+    position: relative;
     background-size: cover;
+}
+
+@media only screen and (max-width: 550px) {
+    .websites{
+        width: 0vw;
+        height: 100%;
+        background-color: transparent;
+        position: relative;
+        background-size:cover;
+        overflow-x: scroll;
+        }
 }
