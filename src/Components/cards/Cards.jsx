@@ -39,7 +39,7 @@ export default function Cards({ onCardClick }) {
         <div className="card" onClick={() => onCardClick(minsida)}>
             <div className="card-text">
                 <h3>THIS PAGE</h3>
-                <p>react project</p>
+                <p>react frontend & backend project</p>
                 <br />
                 <br />
                 <a className='repoLink' href="https://github.com/emelieribring/emelies"><p>Link to repo</p></a>
@@ -48,7 +48,7 @@ export default function Cards({ onCardClick }) {
         <div className="card" onClick={() => onCardClick(fabio)}>
             <div className="card-text">
                 <h3>THE RESTAURANT FABIO</h3>
-                <p>react & blockchain project</p>
+                <p>react blockchain project</p>
                 <br />
                 <br />
                 <a className='repoLink' href="https://github.com/Medieinstitutet/the-restaurant-grupp4"><p>Link to repo</p></a>
