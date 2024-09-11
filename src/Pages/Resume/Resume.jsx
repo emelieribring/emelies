@@ -7,21 +7,33 @@ export default function resume() {
     <div className='resume'>
         <Navbar/>
         <div className="resumeDiv">
-            <div className="resumeBox">
-                <div className='inner-content'>
-                    <h1>About Me</h1>
-                    <p>Swedish:</p>
-                    <p>Emelie Ribring heter jag, är född 1998 i Stockholm, numera bosatt i Solna men har växt upp ute på vackra Värmdö. 
-                        Under mitt än sålänge 26 år långa liv har jag hunnit gå gymnasiet på Värmdö gymnasium 
-                        där jag gick estetisk musik linje, varit en sväng till Asien, jobbat några år på Coop 
-                        och även studerat till Blockchainutvecklare, webbutvecklare och Javascriptutvecklare på Medieinstitutet.</p>
-                    <p>English:</p>
-                    <p>My name is Emelie Ribring, born in 1998 in Stockholm, and I grew up on the beautiful island of Värmdö. 
-                        During my 26 years of life so far, I've completed high school at Värmdö Gymnasium, where I studied 
-                        the arts and music program, traveled to Asia, worked for a few years at Coop, 
-                        and also studied to become a Blockchain Developer, Web Developer, and JavaScript Developer at Medieinstitutet.</p>
+                <div className="resumeBox">
+                    <div className='inner-content'>
+                        <h1>About Me</h1>
+                        <p>Swedish:</p>
+                        <p>Emelie Ribring heter jag, är född 1998 i Stockholm, numera bosatt i Solna men har växt upp ute på vackra Värmdö. 
+                            Under mitt än sålänge 26 år långa liv har jag hunnit gå gymnasiet på Värmdö gymnasium 
+                            där jag gick estetisk musik linje, varit en sväng till Asien, jobbat några år på Coop 
+                            och även studerat till Blockchainutvecklare, webbutvecklare och Javascriptutvecklare på Medieinstitutet. <br /> <br />
+                            Jag har tidigare jobbat på platser som skiljer sig en del från allt vad programmering är. 
+                            Mitt senaste och nuvarande jobb är på Coop, närmare bestämt i charkdisken. 
+                            Jag har inte lärt mig mycket om kod där, MEN, jag har lärt mig om <br />
+                            <br /> 
+                             - samarbete
+                            <br /> <br />
+                             - besluttagande
+                            <br /> <br />
+                             - problemlösning
+                            <br /> <br />
+                            m.m. Självklart är det också stort fokus på kundservice och att bemöta kunders önskemål.
+                        </p>
+                        <p>English:</p>
+                        <p>My name is Emelie Ribring, born in 1998 in Stockholm, and I grew up on the beautiful island of Värmdö. 
+                            During my 26 years of life so far, I've completed high school at Värmdö Gymnasium, where I studied 
+                            the arts and music program, traveled to Asia, worked for a few years at Coop, 
+                            and also studied to become a Blockchain Developer, Web Developer, and JavaScript Developer at Medieinstitutet.</p>
+                    </div>
                 </div>
-            </div>
             <div className="resumeBox">
                 <div className='inner-content'>
                     <h1>My experience</h1>
@@ -51,13 +63,19 @@ export default function resume() {
                     <p>Jag har jobbat mycket inom front-end och ägnar gärna tid åt rolig och genomtänkt design. 
                         Inom backend har blockchainteknologin tagit mest plats men jag hittar hela tiden nya saker 
                         som intresserar mig och jag har nyligen satt mig in i apputveckling och programering i Flutter. 
-                        Jag har även kikat lite på Phyton</p>
+                        Jag har även kikat lite på Phyton.   
+                    </p>
                     <p>English:</p>
                     <p>I have worked extensively in front-end and enjoy dedicating time to fun and well-thought-out design.
                         In the backend, blockchain technology has taken up most of my focus, but I constantly find new things 
                         that interest me. Recently, I have delved into app development and programming in Flutter. 
                         I've also started exploring Python a bit.</p>
                 </div>
+            </div>
+            <div className='fotoDivs'>
+                <div className="fotoDiv"></div>
+                <div className="fotoDiv"></div>
+                <div className="fotoDiv"></div>
             </div>
             <div className="resumeBox">
                 <div className='inner-content'>
@@ -79,7 +97,7 @@ export default function resume() {
                 </div>
             </div>
         </div>
-
+        <div className='bottom'></div>
     </div>
   )
 }
