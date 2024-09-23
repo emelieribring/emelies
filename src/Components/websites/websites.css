@@ -11,8 +11,8 @@
         width: 0vw;
         height: 100%;
         background-color: transparent;
+        background-position: 50% 50%;
         position: relative;
         background-size:cover;
-        overflow-x: scroll;
         }
 }
