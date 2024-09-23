@@ -48,10 +48,47 @@
     height: 300px;
     background-color: chocolate;
     border-radius: 10px;
-    background-image: url(../../images/bild1.png);
+    border-bottom: 2px solid #603209;
+    border-right: 2px solid #603209;
+    transition: background 0.5s ease; /* Transition-effekt för bakgrunden */
+}
+
+#bild1 {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/vegaochjagbild.png);
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+#bild1:hover {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.1)), url(../../images/vegaochjagbild.png);
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+#bild2 {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/bild1.png);
     background-size: cover;
     background-position: 50% 80%;
 }
+
+#bild2:hover {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.1)), url(../../images/bild1.png);
+    background-size: cover;
+    background-position: 50% 80%;
+}
+
+#bild3 {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/IMG_1616.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#bild3:hover {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.1)), url(../../images/IMG_1616.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 
 .resumeBox::-webkit-scrollbar {
     display: none; /* Döljer scrollbar för Webkit-baserade webbläsare (Chrome, Safari) */
@@ -129,7 +166,7 @@
         height: 300px;
         background-color: chocolate;
         border-radius: 10px;
-        background-image: url(../../images/bild1.png);
+        background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)) url(../../images/bild1.png);
         background-size: cover;
         background-position: 50% 80%;
     }

@@ -28,10 +28,23 @@ export default function resume() {
                             m.m. Självklart är det också stort fokus på kundservice och att bemöta kunders önskemål.
                         </p>
                         <p>English:</p>
-                        <p>My name is Emelie Ribring, born in 1998 in Stockholm, and I grew up on the beautiful island of Värmdö. 
-                            During my 26 years of life so far, I've completed high school at Värmdö Gymnasium, where I studied 
-                            the arts and music program, traveled to Asia, worked for a few years at Coop, 
-                            and also studied to become a Blockchain Developer, Web Developer, and JavaScript Developer at Medieinstitutet.</p>
+                        <p>My name is Emelie Ribring, I was born in 1998 in Stockholm, and I currently live in Solna, 
+                        though I grew up in the beautiful area of Värmdö. In my 26 years of life so far, I’ve attended 
+                        high school at Värmdö Gymnasium where I studied the aesthetic music program, traveled to Asia, 
+                        worked for a few years at Coop, and studied to become a Blockchain Developer, Web Developer, 
+                        and JavaScript Developer at Medieinstitutet. <br /> <br />
+                        I’ve previously worked in roles quite different from programming.
+                        My latest and current job is at Coop, specifically in the deli section. 
+                        While I haven’t learned much about coding there, I have gained valuable experience in: <br />
+                        <br />
+                        - collaboration
+                        <br /><br />
+                        - decision-making
+                        <br /><br />
+                        - problem-solving
+                        <br /><br />
+                        among other things. Naturally, 
+                        there’s also a strong focus on customer service and meeting customer needs.</p>
                     </div>
                 </div>
             <div className="resumeBox">
@@ -73,14 +86,13 @@ export default function resume() {
                 </div>
             </div>
             <div className='fotoDivs'>
-                <div className="fotoDiv"></div>
-                <div className="fotoDiv"></div>
-                <div className="fotoDiv"></div>
+                <div id='bild1' className="fotoDiv"></div>
+                <div id='bild2' className="fotoDiv"></div>
+                <div id='bild3' className="fotoDiv"></div>
             </div>
             <div className="resumeBox">
                 <div className='inner-content'>
                     <h1>My Education</h1>
-                    <p>Swedish:</p>
                     <p><b>MEDIEINSTITUTET</b> <br />
                         Webbutvecklare (Webdeveloper) <br />
                         Javascriptutvecklare (Javascriptdeveloper) <br />

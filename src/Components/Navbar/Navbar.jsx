@@ -11,7 +11,7 @@ export default function Navbar({toggleVisibility}) {
         <a href="/portfolio"> <li>portfolio</li></a>
         <a href="/contact"> <li>contact</li></a>
       </ul>
-      <p><img className='tele-icon' src={teleIcon} alt="" /> +73 735 35 00</p>
+      <p><img className='tele-icon' src={teleIcon} alt="" /> +46 73 735 35 00</p>
     </nav>
   )
 }
