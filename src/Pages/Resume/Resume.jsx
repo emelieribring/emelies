@@ -1,52 +1,54 @@
 import React from 'react';
 import './resume.css';
 import Navbar from '../../Components/Navbar/Navbar';
+import sign from '../../images/sign.png';
+import 'animate.css';
 
 export default function resume() {
   return (
     <div className='resume'>
         <Navbar/>
         <div className="resumeDiv">
-                <div className="resumeBox">
-                    <div className='inner-content'>
-                        <h1>About Me</h1>
-                        <p>Swedish:</p>
-                        <p>Emelie Ribring heter jag, är född 1998 i Stockholm, numera bosatt i Solna men har växt upp ute på vackra Värmdö. 
-                            Under mitt än sålänge 26 år långa liv har jag hunnit gå gymnasiet på Värmdö gymnasium 
-                            där jag gick estetisk musik linje, varit en sväng till Asien, jobbat några år på Coop 
-                            och även studerat till Blockchainutvecklare, webbutvecklare och Javascriptutvecklare på Medieinstitutet. <br /> <br />
-                            Jag har tidigare jobbat på platser som skiljer sig en del från allt vad programmering är. 
-                            Mitt senaste och nuvarande jobb är på Coop, närmare bestämt i charkdisken. 
-                            Jag har inte lärt mig mycket om kod där, MEN, jag har lärt mig om <br />
-                            <br /> 
-                             - samarbete
-                            <br /> <br />
-                             - besluttagande
-                            <br /> <br />
-                             - problemlösning
-                            <br /> <br />
-                            m.m. Självklart är det också stort fokus på kundservice och att bemöta kunders önskemål.
-                        </p>
-                        <p>English:</p>
-                        <p>My name is Emelie Ribring, I was born in 1998 in Stockholm, and I currently live in Solna, 
-                        though I grew up in the beautiful area of Värmdö. In my 26 years of life so far, I’ve attended 
-                        high school at Värmdö Gymnasium where I studied the aesthetic music program, traveled to Asia, 
-                        worked for a few years at Coop, and studied to become a Blockchain Developer, Web Developer, 
-                        and JavaScript Developer at Medieinstitutet. <br /> <br />
-                        I’ve previously worked in roles quite different from programming.
-                        My latest and current job is at Coop, specifically in the deli section. 
-                        While I haven’t learned much about coding there, I have gained valuable experience in: <br />
-                        <br />
-                        - collaboration
-                        <br /><br />
-                        - decision-making
-                        <br /><br />
-                        - problem-solving
-                        <br /><br />
-                        among other things. Naturally, 
-                        there’s also a strong focus on customer service and meeting customer needs.</p>
-                    </div>
+            <div className="resumeBox">
+                <div className='inner-content'>
+                    <h1>About Me</h1>
+                    <p>Swedish:</p>
+                    <p>Emelie Ribring heter jag, är född 1998 i Stockholm, numera bosatt i Solna men har växt upp ute på vackra Värmdö. 
+                        Under mitt än sålänge 26 år långa liv har jag hunnit gå gymnasiet på Värmdö gymnasium 
+                        där jag gick estetisk musik linje, varit en sväng till Asien, jobbat några år på Coop 
+                        och även studerat till Blockchainutvecklare, webbutvecklare och Javascriptutvecklare på Medieinstitutet. <br /> <br />
+                        Jag har tidigare jobbat på platser som skiljer sig en del från allt vad programmering är. 
+                        Mitt senaste och nuvarande jobb är på Coop, närmare bestämt i charkdisken. 
+                        Jag har inte lärt mig mycket om kod där, MEN, jag har lärt mig om <br />
+                        <br /> 
+                            - samarbete
+                        <br /> <br />
+                            - besluttagande
+                        <br /> <br />
+                            - problemlösning
+                        <br /> <br />
+                        m.m. Självklart är det också stort fokus på kundservice och att bemöta kunders önskemål.
+                    </p>
+                    <p>English:</p>
+                    <p>My name is Emelie Ribring, I was born in 1998 in Stockholm, and I currently live in Solna, 
+                    though I grew up in the beautiful area of Värmdö. In my 26 years of life so far, I’ve attended 
+                    high school at Värmdö Gymnasium where I studied the aesthetic music program, traveled to Asia, 
+                    worked for a few years at Coop, and studied to become a Blockchain Developer, Web Developer, 
+                    and JavaScript Developer at Medieinstitutet. <br /> <br />
+                    I’ve previously worked in roles quite different from programming.
+                    My latest and current job is at Coop, specifically in the deli section. 
+                    While I haven’t learned much about coding there, I have gained valuable experience in: <br />
+                    <br />
+                    - collaboration
+                    <br /><br />
+                    - decision-making
+                    <br /><br />
+                    - problem-solving
+                    <br /><br />
+                    among other things. Naturally, 
+                    there’s also a strong focus on customer service and meeting customer needs.</p>
                 </div>
+            </div>
             <div className="resumeBox">
                 <div className='inner-content'>
                     <h1>My experience</h1>
@@ -85,11 +87,6 @@ export default function resume() {
                         I've also started exploring Python a bit.</p>
                 </div>
             </div>
-            <div className='fotoDivs'>
-                <div id='bild1' className="fotoDiv"></div>
-                <div id='bild2' className="fotoDiv"></div>
-                <div id='bild3' className="fotoDiv"></div>
-            </div>
             <div className="resumeBox">
                 <div className='inner-content'>
                     <h1>My Education</h1>
@@ -109,7 +106,9 @@ export default function resume() {
                 </div>
             </div>
         </div>
-        <div className='bottom'></div>
+        <div className='signDiv'>
+            <img className='sign animate__animated animate__bounce' src={sign} alt="" />
+        </div>
     </div>
   )
 }
