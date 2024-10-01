@@ -38,14 +38,14 @@ export default function Contact() {
           <p className='under-talk'>📧 &nbsp; emelieribring@hotmail.com <br />
           📞 &nbsp;  073 735 35 00</p>
           <div className='linksToMe'>
-          <a href="https://www.instagram.com/emelieeeii/"><img className='media' src={insta} alt="insta" /></a>
-        <a href="https://github.com/emelieribring"><img className='media github' src={github} alt="github" /></a>
-        <a href="https://www.linkedin.com/in/emelie-ribring-076a81250/"><img className='media' src={linkedIn} alt="linkedIn" /></a>
+            <a href="https://www.instagram.com/emelieeeii/"><img className='media' src={insta} alt="insta" /></a>
+            <a href="https://github.com/emelieribring"><img className='media github' src={github} alt="github" /></a>
+            <a href="https://www.linkedin.com/in/emelie-ribring-076a81250/"><img className='media' src={linkedIn} alt="linkedIn" /></a>
           </div>
         </div>
         <div className='form-holder'>
           <form onSubmit={handleSubmit}>
-            <div>
+            <div className='inputDiv'>
               <input placeholder='name' type="text" name="name" id="name" required />
               <input placeholder='email' type="email" name="email" id="email" required />
             </div>
