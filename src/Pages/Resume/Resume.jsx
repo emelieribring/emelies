@@ -106,9 +106,7 @@ export default function resume() {
                 </div>
             </div>
         </div>
-        <div className='signDiv'>
-            <img className='sign animate__animated animate__bounce' src={sign} alt="" />
-        </div>
+        <div className='bottom'></div>
     </div>
   )
 }
