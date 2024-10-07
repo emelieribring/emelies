@@ -1,7 +1,6 @@
 import React from 'react';
 import './resume.css';
 import Navbar from '../../Components/Navbar/Navbar';
-import sign from '../../images/sign.png';
 import 'animate.css';
 
 export default function resume() {
